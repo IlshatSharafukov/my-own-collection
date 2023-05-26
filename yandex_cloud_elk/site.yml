@@ -1,0 +1,7 @@
+---
+- name: Make File in Linux Directory
+  hosts: all
+  roles:
+    - test_role
+  tags:
+    - test_role

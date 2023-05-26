@@ -1,0 +1,8 @@
+---
+# tasks file for test_role
+    - name: Call my_sample_module
+      my-sample-module:
+        path:
+          - "{{ path }}"
+        content:
+          - "{{ content }}"
